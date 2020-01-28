@@ -1,6 +1,7 @@
 package pl.allegro.finance.tradukisto.internal.languages.russian;
 
 import com.google.common.collect.Range;
+
 import pl.allegro.finance.tradukisto.internal.languages.GenderType;
 import pl.allegro.finance.tradukisto.internal.languages.PluralForms;
 
@@ -35,7 +36,7 @@ public class RussianPluralForms implements PluralForms {
     }
 
     private boolean usePluralForm(Integer value) {
-        return Range.closed(2, 4).contains(value % 10) && !Range.closed(12, 14).contains(value % 100);
+        return false;//Range.closed(2, 4).contains(value % 10) && !Range.closed(12, 14).contains(value % 100);
     }
 
     @Override

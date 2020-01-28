@@ -1,6 +1,6 @@
 package pl.allegro.finance.tradukisto.internal.languages.russian;
 
-import com.google.common.collect.Range;
+//import com.google.common.collect.Range;
 
 import pl.allegro.finance.tradukisto.internal.languages.GenderType;
 import pl.allegro.finance.tradukisto.internal.languages.PluralForms;
